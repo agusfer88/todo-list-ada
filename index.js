@@ -30,7 +30,7 @@ function agregar() {
     // Borrando el list item cuando hago click en el boton borrar
     listItem.remove();
     // Borrando el objeto del array
-    var index = misItems.findIndex(i => i === item);
+    var index = misItems.findIndex(i => i === listItem);
     misItems.splice(index, 1);
   });
   // Agregando el boton al list item
